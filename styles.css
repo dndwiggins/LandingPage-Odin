@@ -158,7 +158,7 @@ body {
     display: flex;
     flex: auto;
     background-color: #E5E7EB;
-    padding: 5%;
+
     flex-direction: column;
     flex-shrink: 1;
 }
@@ -179,4 +179,65 @@ body {
     justify-content: flex-end;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
+}
+
+
+.call {
+    padding: 50px;
+    display: flex;
+    flex: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.callbox {
+    display: flex;
+    flex: auto;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.callText {
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #E5E7EB;
+}
+
+.callDiv {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.call1 {
+    margin-bottom: 2px;
+    font-weight: bolder;
+}
+
+.call2 {
+    margin-top: 2px;
+    font-weight: lighter;
+}
+
+.callBt {
+    color: #f9faf8;
+    background-color: #3882F6;
+    border-radius: 10px;
+    width: 50%;
+    height: 40%;
+    border: none;
+    font-weight: bolder;
+    border-color: #E5E7EB;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.quoteBox {
+    padding: 40px;
 }
