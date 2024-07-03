@@ -241,3 +241,13 @@ body {
 .quoteBox {
     padding: 40px;
 }
+
+.footer {
+    display: flex;
+    flex: auto;
+    background-color: #1F2937;
+    justify-content: center;
+    color: #E5E7EB;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
